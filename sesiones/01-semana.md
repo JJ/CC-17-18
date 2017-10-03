@@ -1,17 +1,21 @@
 # Primera semana, comienza el 3 de octubre 2017
 
-Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/e/1FAIpQLScw3YAgMc5gkNeT4HXVz3wQ9fck8Jrc-6kA6ihAPU5pGKWkCg/viewform)
+Agradeceré que contestes
+la
+[encuesta inicial](https://docs.google.com/forms/d/e/1FAIpQLScw3YAgMc5gkNeT4HXVz3wQ9fck8Jrc-6kA6ihAPU5pGKWkCg/viewform) también
+en este enlace corto goo.gl/pR37Wa
 
 ## Objetivos a cubrir en la primera semana
 
 1. Entender la metodología docente, de evaluación y de interacción de la asignatura.
-2. Darse de alta y comprender el funcionamiento básico de [GitHub](https://github.com) y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
+2. Darse de alta y comprender el funcionamiento básico
+   de [GitHub](https://github.com) y el grupo de Telegram de la
+   asignatura; conocer el resto de los recursos de la asignatura. 
 2. Entender el concepto de software libre y su aplicación práctica en clase.
 3. Vernos las caras.
 4. Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
 5. Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
-6. Entender en qué consiste el proyecto de la asignatura y comenzar a
-trabajar en el mismo.
+6. Entender en qué consiste el proyecto de la asignatura y comenzar a trabajar en el mismo.
 
 ## Otros objetivos
 * Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura
@@ -31,10 +35,12 @@ trabajar en el mismo.
 * [Metodología y criterios de evaluación](../Metodología_y_criterios_de_evaluación.md).
 * [Tutorías y diferentes métodos para plantear y resolver dudas](/issues).
 * Fechas para seminarios y recuperaciones de clase y forma de los mismos (streaming, por ejemplo).
-* Alta en [GitHub](http://github.com) y [lista de correo](https://groups.google.com/d/forum/cc-ugr-2016).
+* Alta en [GitHub](http://github.com) y grupo de Telegram (conseguir
+  un *alias* en Telegram y enviárselo por privado a @jjmerelo).
 * Introducción al uso de **Markdown**.
 * Introducción al software libre.
-* Sistema operativo de referencia en la asignatura: Linux (Ubuntu, Debian, Archlinux, Fedora, OpenSUSE, Linux Mint).
+* Sistema operativo de referencia en la asignatura: Linux (Ubuntu,
+  Debian, Archlinux, Fedora, OpenSUSE, Linux Mint, Arch, Antergos).
 * Entender la cultura DevOps y cómo cambia la filosofía de trabajo.
 
 ## Material para la clase
