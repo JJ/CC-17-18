@@ -1,0 +1,10 @@
+branches:
+  except:
+    - gh-pages
+language: perl
+perl:
+  - "5.16"
+before_install:
+install: cpanm Test::More Test::Harness Git File::Slurper
+script: prove -c
+
