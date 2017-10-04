@@ -10,7 +10,7 @@ use v5.14; # For say
 
 my $repo = Git->repository ( Directory => '.' );
 my $diff = $repo->command('diff','HEAD^1','HEAD');
-my $diff_regex = qr/a\/proyectos\/hito-(\d)\.md/;
+my $diff_regex = qr/a\/proyecto\/(\d)\.md/;
 my $github;
 
 SKIP: {
