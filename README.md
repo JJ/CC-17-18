@@ -8,7 +8,7 @@ Para navegar por la asignatura,
 
 ## Enlaces al resto del material
 
-Repositorio para el material específico de cada clase, planificación y ejercicios. Si es la primera vez que vienes por aquí, ve directamente [a la primera sesión](sesiones/primera.md)
+Repositorio para el material específico de cada clase, planificación y ejercicios. Si es la primera vez que vienes por aquí, ve directamente [a la primera sesión](sesiones/01-semana.md)
 
 * Comienza con [la programación y objetivos de las diferentes sesiones de la asignatura](sesiones/README.md).
 * Puedes consultar [los apuntes de la materia](http://jj.github.io/CC).
