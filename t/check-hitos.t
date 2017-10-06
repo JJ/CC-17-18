@@ -40,6 +40,7 @@ SKIP: {
   my $student_repo =  Git->repository ( Directory => $repo_dir );
   my @repo_files = $student_repo->command("ls-files");
   say "Ficheros\n\t→", join( "\n\t→", @repo_files);
+  isnt( grep(/Metodología/, @repo_files), "No es el repositorio de la asignatura")
   for my $f (qw( README.md .gitignore LICENSE )) {
     isnt( grep( /$f/, @repo_files), 0, "$f presente" );
   }
