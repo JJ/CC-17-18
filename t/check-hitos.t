@@ -16,6 +16,13 @@ my $github;
 SKIP: {
   my ($this_hito) = ($diff =~ $diff_regex);
   skip "No hay envío de proyecto", 5 unless defined $this_hito;
+  my $diag=<<EOC;
+"Failed test" indica que no se cumple la condición indicada
+Hay que corregir el envío y volver a hacer el pull request,
+aumentando en uno el número de la versión del hito en el
+fichero correspondiente.
+EOC
+  diag $diag;
   my @files = split(/diff --git/,$diff);
   my ($diff_hito) = grep( /$diff_regex/, @files);
   say "Tratando diff\n\t$diff_hito";
@@ -40,7 +47,7 @@ SKIP: {
   my $student_repo =  Git->repository ( Directory => $repo_dir );
   my @repo_files = $student_repo->command("ls-files");
   say "Ficheros\n\t→", join( "\n\t→", @repo_files);
-  isnt( grep(/Metodología/, @repo_files), "No es el repositorio de la asignatura");
+  isnt( grep(/proyecto.0.md/, @repo_files), 1, "No es el repositorio de la asignatura");
   for my $f (qw( README.md .gitignore LICENSE )) {
     isnt( grep( /$f/, @repo_files), 0, "$f presente" );
   }
