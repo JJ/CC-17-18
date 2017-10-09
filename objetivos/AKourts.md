@@ -1,4 +1,4 @@
-Lista de objetivos de Jose Daniel Salas Villaldea
+Objetivos Semana 01 Alexandra KOurtsounioti
 =================================================
 
 ## Objetivos a cubrir en la primera semana

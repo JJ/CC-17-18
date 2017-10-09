@@ -52,4 +52,4 @@ y con el [hito 0 del proyecto](http://jj.github.io/CC/documentos/proyecto/0.Repo
 
 ## Siguiente semana
 
-[Segunda semana, 10 de octubre ](2-semana.md)
+[Segunda semana, 10 de octubre ](02-semana.md)
