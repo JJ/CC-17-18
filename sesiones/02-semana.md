@@ -9,7 +9,8 @@
 ## Otros objetivos
 
 * Manejar con soltura los diferentes recursos de línea de órdenes, especialmente en Linux.
-* Haber entregado el hito 0 del proyecto.
+* Haber entregado el hito 0 del proyecto y entender qué se buscaba con
+  el mismo.
 * Comprender el primer hito del proyecto.
 
 ## Material para la clase
