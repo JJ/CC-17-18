@@ -4,7 +4,7 @@ Clases de Cloud Computing
 ## Cloud Computing I COMO
 
 Para navegar por la asignatura,
-[comienza por la sesión de la primera semana y sus enlaces](sesiones/1-semana.md). 
+[comienza por la sesión de la primera semana y sus enlaces](sesiones/01-semana.md). 
 
 ## Enlaces al resto del material
 
