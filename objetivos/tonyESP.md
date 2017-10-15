@@ -1,6 +1,5 @@
 # Lista de objetivos de Antonio Manuel Jiménez Martínez
-============================
-
+- - - 
 ## **1º** Semana
 
 **Objetivos:**
