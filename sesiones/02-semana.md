@@ -16,7 +16,7 @@
 ## Material para la clase
 
 [Material de este primer tema](http://jj.github.io/CC/documentos/temas/Desarrollo_basado_en_pruebas)
-y recordad que la semana siguiente se entrega el [hito 1 del proyecto](http://jj.github.io/CC/documentos/proyecto/1.Infraestructura)
+y recordad que la semana siguiente se entrega el [hito 1 del proyecto](http://jj.github.io/CC/documentos/proyecto/1.Infraestructura).
 
 ## Siguiente semana
 

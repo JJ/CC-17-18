@@ -13,7 +13,8 @@ Este fin de semana tenemos hackatón de Hacktoberfest. Todo ello y mucho más en
 
 ## Otros objetivos
 
-* Revisar los resultados del primer hito y entender los fallos.
+* Revisar los resultados del primer hito y entender los fallos. Si no
+  se ha entregado todavía, lo dejamos para la clase del jueves. 
 
 * Tener manejo básico de los lenguajes usados en herramientas de
   provisionamiento, Python y Ruby.
