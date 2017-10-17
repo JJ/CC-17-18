@@ -1,4 +1,4 @@
-# Entrega del hito del proyecto de Infraestructura virtual
+# Entrega del hito del proyecto de Cloud Computing
 
 **Hay que enviar de forma diferenciada los objetivos y el hito y
 borrar la parte que no corresponda** 
