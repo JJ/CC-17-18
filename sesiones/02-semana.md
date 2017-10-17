@@ -20,4 +20,4 @@ y recordad que la semana siguiente se entrega el [hito 1 del proyecto](http://jj
 
 ## Siguiente semana
 
-[Tercera semana, desde el 17 de octubre ](3-semana.md)
+[Tercera semana, desde el 17 de octubre ](03-semana.md)
