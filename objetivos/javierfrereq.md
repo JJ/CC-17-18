@@ -2,6 +2,9 @@
 
 ## **1º** Semana
 
+Lista de objetivos semanales - Freddy Frere
+============================================
+
 **Objetivos:**
 
 * [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
