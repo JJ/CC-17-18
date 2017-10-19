@@ -21,6 +21,17 @@
 + [x] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
 + [x] Conocer dónde se pueden obtener recursos cloud gratuitos para usar en la asignatura.
 
+## **2º** Semana
 
+**Objetivos:**
+
+* [x] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+* [x] Entender las características de las aplicaciones que se despliegan en la nube.
+
+**Otros objetivos:**
+
+* [x] Manejar con soltura los diferentes recursos de línea de órdenes, especialmente en Linux.
+* [x] Haber entregado el hito 0 del proyecto y entender qué se buscaba con el mismo.
+* [x] Comprender el primer hito del proyecto.
 
 
