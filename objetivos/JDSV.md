@@ -16,7 +16,7 @@ Lista de objetivos de Jose Daniel Salas Villaldea
 - [x] Usar los métodos de entrega de los objetivos propuestos para la asignatura usando GitHub.
 - [x] Manejar de forma básica la línea de órdenes de Linux.
 - [x] Aprender a instalar software libre en Linux.
-- [x] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
+- [x] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub. https://github.com/jdanielsv/CC-EJERCICIOS-UGR/blob/master/ejerciciosTema1.md
 - [x] Conocer dónde se pueden obtener recursos cloud gratuitos para usar en la asignatura.
 
 # Segunda semana
@@ -30,3 +30,19 @@ Lista de objetivos de Jose Daniel Salas Villaldea
 * [x] Manejar con soltura los diferentes recursos de línea de órdenes, especialmente en Linux.
 * [x] Haber entregado el hito 0 del proyecto y entender qué se buscaba con el mismo.
 * [x] Comprender el primer hito del proyecto.
+
+# Tercera semana
+
+## Objetivos:
+* [x] Entender las arquitecturas de software en la nube de uso en la actualidad.
+* [x] Comprender el paper fundamental de la infraestructura virtual en este proceso.
+* [x] Entender en qué consiste la infraestructura como software
+
+## Otros objetivos:
+* [x] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves.
+
+* [ ] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
+
+* [ ] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
+
+* [ ] Decidir sistema de recuperación de la clase del 26 de octubre.
