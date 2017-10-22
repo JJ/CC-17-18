@@ -41,11 +41,11 @@ Lista de objetivos semanales - Ramón Gago Carrera
 
 ## Otros objetivos
 
-- [] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves. 
+- [ ] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves. 
 
-- [] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
+- [ ] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
   
-- [] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
+- [ ] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
   
 - [x] Decidir sistema de recuperación de la clase del 26 de octubre.
 
