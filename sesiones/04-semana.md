@@ -3,23 +3,32 @@
 
 ## Objetivos a cubrir en esta semana
 
-1. Entender las diferentes arquitecturas de aplicaciones en la nube
-4. Entender qué se espera del hito 1 del proyecto y comenzar a
-   trabajar en el mismo.
+1. Entender el concepto de Infraestructura como servicio y cómo usarlo
+   para desplegar aplicaciones.
+2. Entender el concepto de infraestructura virtual y cómo describir
+   infraestructura mediante software.
 
 ## Otros objetivos
-* Conocer diferentes proyectos cloud, cómo se han hecho y qué
-  herramientas están usando.
 
-* Conocer qué aplicaciones y servicios se usan desde estas
-  herramientas web.
+* Comprender los errores cometidos en el hito entregado el lunes y
+  volver a entregarlo en caso de error.
+* Entender qué se espera del hito 2 y en qué consiste.
+* Conocer las diferentes ofertas y métodos de uso y creación de
+  máquinas virtuales en la nube.
+* Instalar las herramientas de línea de órdenes de las herramientas cloud.
+* Hacerse con alguna cuenta gratuita o bonificada de cloud.
+* Avanzar un poco más con los lenguajes *nubosos*: Perl, Python y Ruby.
+  
+## Material para la clase
 
-##Material para la clase
+* *Teoría*: Seguimos con
+  el
+  [segundo tema](http://jj.github.io/CC/documentos/temas/Gestion_de_configuraciones)
+* *Práctica*:
+  [Hito correspondiente](https://jj.github.io/CC/documentos/proyecto/2.Provisionamiento). *Fecha
+  de entrega*: **17 de noviembre**. 
 
-* *Teoría*:
-  [Material de este  tema](http://jj.github.io/CC/documentos/temas/Arquitecturas_para_la_nube)
 
-
-##Siguiente semana
+## Siguiente semana
 
 [Quinta semana](5-semana.md)
