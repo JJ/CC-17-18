@@ -23,6 +23,9 @@ Este fin de semana tenemos hackatón de Hacktoberfest. Todo ello y mucho más en
   usar máquinas virtuales para provisionar.
   
 * Decidir sistema de recuperación de la clase del 26 de octubre.
+
+* El jueves día 26 Ernesto Serrano impartirá un seminario sobre la historia
+  de las distribuciones Linux. 
   
 ## Material para la clase
 
