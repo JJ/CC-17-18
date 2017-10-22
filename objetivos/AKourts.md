@@ -24,3 +24,15 @@ Semana 2
 - Manejar con soltura los diferentes recursos de línea de órdenes, especialmente en Linux.
 - Haber entregado el hito 0 del proyecto y entender qué se buscaba con el mismo.
 - Comprender el primer hito del proyecto.
+
+Semana 3
+
+- Entender las arquitecturas de software en la nube de uso en la actualidad.
+- Comprender el paper fundamental de la infraestructura virtual en este proceso.
+- Entender en qué consiste la [infraestructura como software](https://jj.github.io/CC/documentos/temas/Provision)
+- Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves. 
+- Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
+- Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
+- Decidir sistema de recuperación de la clase del 26 de octubre.
+- El jueves día 26 Ernesto Serrano impartirá un seminario sobre la historia de las distribuciones Linux. 
+
