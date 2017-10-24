@@ -48,3 +48,14 @@ Lista de objetivos semanales - Freddy Frere
 * [x] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
 * [x] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
 * [x] Decidir sistema de recuperación de la clase del 26 de octubre.
+
+## Semana 4
+
+- [x] Entender el concepto de Infraestructura como servicio y cómo usarlo para desplegar aplicaciones.
+- [x] Entender el concepto de infraestructura virtual y cómo describir infraestructura mediante software.
+- [x] Comprender los errores cometidos en el hito entregado el lunes y volver a entregarlo en caso de error.
+- [x] Entender qué se espera del hito 2 y en qué consiste.
+- [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
+- [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
+- [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
+- [x] Avanzar un poco más con los lenguajes nubosos: Perl, Python y Ruby.
