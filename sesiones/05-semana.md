@@ -18,7 +18,7 @@
 * Aprender la mínimo de los lenguajes necesarios para trabajar en la
   nube: Perl, Python y Ruby.
 
-##Material para la clase
+## Material para la clase
 
 * *Teoría*: Comenzamos el
   [segundo tema](http://jj.github.io/CC/documentos/temas/Gestion_de_configuraciones)
