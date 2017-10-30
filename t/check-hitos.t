@@ -65,9 +65,9 @@ EOC
   }
 
   if ( $this_hito > 1 ) { # Comprobar milestones y eso 
-    isnt( grep( /.travis.yml/, @repo_files), 0, ".travis.yml presente" );
-    my $README =  read_text( "$repo_dir/README.md"),;
-    like( $README, qr/.Build Status..https:\/\/travis-ci.org\/$user\/$name/);
+    isnt( grep( /.yml/, @repo_files), 0, "Hay algún playbook en YAML presente" );
+    isnt( grep( /provision/, @repo_files), 0, "Hay un directorio 'provision'" );
+    isnt( grep( m{provision/\w+}, @repo_files), 0, "El directorio 'provision' no está vacío" );
   }
 };
 
