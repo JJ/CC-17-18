@@ -20,10 +20,10 @@
 
 ## Material para la clase
 
-* *Teoría*: Comenzamos el
+* *Teoría*: Continuamos con el
   [segundo tema](http://jj.github.io/CC/documentos/temas/Gestion_de_configuraciones)
 
 
-##Siguiente semana
+## Siguiente semana
 
-[Sexta semana](6-semana.md)
+[Sexta semana](06-semana.md)
