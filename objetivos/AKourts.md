@@ -36,3 +36,14 @@ Semana 3
 - Decidir sistema de recuperación de la clase del 26 de octubre.
 - El jueves día 26 Ernesto Serrano impartirá un seminario sobre la historia de las distribuciones Linux. 
 
+Semana 4
+
+- Entender el concepto de Infraestructura como servicio y cómo usarlo para desplegar aplicaciones.
+- Entender el concepto de infraestructura virtual y cómo describir infraestructura mediante software.
+- Comprender los errores cometidos en el hito entregado el lunes y volver a entregarlo en caso de error.
+- Entender qué se espera del hito 2 y en qué consiste.
+- Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
+- Instalar las herramientas de línea de órdenes de las herramientas cloud.
+- Hacerse con alguna cuenta gratuita o bonificada de cloud.
+- Avanzar un poco más con los lenguajes nubosos: Perl, Python y Ruby.
+
