@@ -41,12 +41,21 @@ Lista de objetivos semanales - Ramón Gago Carrera
 
 ## Otros objetivos
 
-- [ ] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves. 
-
-- [ ] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
-  
-- [ ] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
-  
+- [x] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves. 
+- [x] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
+- [x] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar. 
 - [x] Decidir sistema de recuperación de la clase del 26 de octubre.
-
 - [x] El jueves día 26 Ernesto Serrano impartirá un seminario sobre la historia de las distribuciones Linux. 
+
+# Semana 04
+## Objetivos:
+
+- [x] Entender el concepto de Infraestructura como servicio y cómo usarlo para desplegar aplicaciones.
+- [x] Entender el concepto de infraestructura virtual y cómo describir infraestructura mediante software.
+
+## Otros objetivos
+
+- [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
+- [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
+- [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
+- [x] Avanzar un poco más con los lenguajes nubosos: Perl, Python y Ruby.
