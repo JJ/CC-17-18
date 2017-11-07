@@ -39,3 +39,16 @@ Lista de objetivos de erseco
 - [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
 - [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
 - [x] Avanzar un poco más con los lenguajes nubosos: Perl, Python y Ruby.
+
+## Semana 5
+
+- [x] Entender el concepto de Infraestructura como servicio y cómo usarlo para desplegar aplicaciones.
+- [x] Entender el concepto de infraestructura virtual y cómo describir infraestructura mediante software.
+- [x] Comprender los errores cometidos en el hito entregado el lunes y volver a entregarlo en caso de error.
+- [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
+- [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
+- [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
+- [x] Aprender la mínimo de los lenguajes necesarios para trabajar en la nube: Perl, Python y Ruby.
+
+
+
