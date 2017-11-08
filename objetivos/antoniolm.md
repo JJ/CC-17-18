@@ -72,3 +72,32 @@
 * [ ] Instalar las herramientas de línea de órdenes de las herramientas cloud.
 * [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
 * [x] Avanzar un poco más con los lenguajes nubosos: Perl, Python y Ruby.
+
+## 5º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Entender el concepto de Infraestructura como servicio y cómo usarlo para desplegar aplicaciones.
+* [x] Entender el concepto de infraestructura virtual y cómo describir infraestructura mediante software.
+
+### Otros objetivos
+
+* [x] Comprender los errores cometidos en el hito entregado el lunes y volver a entregarlo en caso de error.
+* [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
+* [ ] Instalar las herramientas de línea de órdenes de las herramientas cloud.
+* [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
+* [x] Aprender la mínimo de los lenguajes necesarios para trabajar en la nube: Perl, Python y Ruby.
+
+## 6º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Aprender a usar diferentes sistemas de provisionamiento de máquinas virtuales en la nube.
+* [x] Entender los diferentes conceptos subyacentes: servicio, estado.
+
+### Otros objetivos
+
+* [x] Tener listos diferentes sistemas cloud donde se puedan desplegar máquinas virtuales.
+* [ ] Conocer diferentes lugares donde haya imágenes de sistemas operativos listas para usar.
+* [x] Instalar y configurar diferentes sistemas de provisionamiento.
+* [x] Aprender lo suficiente de los lenguajes de programación usados por los sistemas de aprovisionamiento para entender el Domain Specific Language usado por los mismos.
