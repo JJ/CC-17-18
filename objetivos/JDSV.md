@@ -75,7 +75,7 @@ Lista de objetivos de Jose Daniel Salas Villaldea
 - [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
 - [x] Aprender la mínimo de los lenguajes necesarios para trabajar en la
   nube: Perl, Python y Ruby.
-
+- [x] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub. 
 # Sexta Semana
 ## Objetivos de la asignatura
 
