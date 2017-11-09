@@ -22,6 +22,8 @@
   los sistemas de aprovisionamiento para entender el Domain Specific
   Language usado por los mismos.
 
+* Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub. 
+
 ## Material para esta semana
 
 * *Teoría*: Comenzamos el [tercer tema](http://jj.github.io/CC/documentos/temas/Automatizando_cloud)
