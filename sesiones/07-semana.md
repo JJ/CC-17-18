@@ -11,12 +11,17 @@
 
 * Probar los provisionamientos creados en diferentes servicios.
 
-* Probar con algún sistema operativo poco habitual, como OpenBSD. 
+* Probar con algún sistema operativo poco habitual, como OpenBSD para
+  los provisionamientos.
 
 ## Material para esta semana
 
 * *Teoría*: Seguimos con el
-  [tema de uso de cloud](http://jj.github.io/CC/documentos/temas/Automatizando_cloud)
+  [tema de uso de cloud](http://jj.github.io/CC/documentos/temas/Automatizando_cloud) y
+  empezamos por
+  el
+  [siguiente hito](http://jj.github.io/CC/documentos/proyecto/3.IaaS),
+  que es nuevo este curso.
 
 
 ## Siguiente semana
