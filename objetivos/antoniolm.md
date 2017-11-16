@@ -101,4 +101,13 @@
 * [ ] Conocer diferentes lugares donde haya imágenes de sistemas operativos listas para usar.
 * [x] Instalar y configurar diferentes sistemas de provisionamiento.
 * [x] Aprender lo suficiente de los lenguajes de programación usados por los sistemas de aprovisionamiento para entender el Domain Specific Language usado por los mismos.
-* [x] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub.
+
+## 7º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Resolver problemas con el uso de los diferentes sistemas de provisionamiento en la nube.
+
+### Otros objetivos
+* [x] Probar los provisionamientos creados en diferentes servicios.
+* [ ] Probar con algún sistema operativo poco habitual, como OpenBSD para los provisionamientos.
