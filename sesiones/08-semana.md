@@ -13,7 +13,7 @@ cómo trabajan unos con otros.
 
 ## Objetivos adicionales
 
-* Terminar el hito 2 del proyecto, resolver las dudas que surjan y
+* Terminar durante la semana el [hito 3 del proyecto](https://jj.github.io/CC/documentos/proyecto/3.IaaS)  del proyecto, resolver las dudas que surjan y
   comentar lo que se ha hallado en el mismo.
 
 * Instalar los nuevos sistemas de orquestación correspondientes al
@@ -28,10 +28,10 @@ cómo trabajan unos con otros.
 
 * *Teoría*: Terminamos el
   [tercer tema](http://jj.github.io/CC/documentos/temas/Automatizando_cloud)
-  y comenzamos el [tercero](http://jj.github.io/CC/documentos/temas/Orquestacion)
+  y comenzamos el [cuarto](http://jj.github.io/CC/documentos/temas/Orquestacion)
 
 * *Proyecto*: El [hito 3 del proyecto](https://jj.github.io/CC/documentos/proyecto/3.IaaS). se
-  entregará el próximo martes *28 de noviembre*.
+  entregará el siguiente martes *28 de noviembre*.
 
 ## Siguiente semana
 
