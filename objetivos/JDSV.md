@@ -75,26 +75,26 @@ Lista de objetivos de Jose Daniel Salas Villaldea
 - [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
 - [x] Aprender la mínimo de los lenguajes necesarios para trabajar en la
   nube: Perl, Python y Ruby.
-- [x] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub. 
+- [x] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub.
 # Sexta Semana
 ## Objetivos de la asignatura
 
-- [ ] Aprender a usar diferentes sistemas de provisionamiento de máquinas
+- [x] Aprender a usar diferentes sistemas de provisionamiento de máquinas
    virtuales en la nube.
 
-- [ ] Entender los diferentes conceptos subyacentes: servicio, estado.
+- [x] Entender los diferentes conceptos subyacentes: servicio, estado.
 
 ## Objetivos adicionales
 
-- [ ] Tener listos diferentes sistemas cloud donde se puedan desplegar máquinas
+- [x] Tener listos diferentes sistemas cloud donde se puedan desplegar máquinas
   virtuales.
 
-- [ ] Conocer diferentes lugares donde haya imágenes de sistemas
+- [x] Conocer diferentes lugares donde haya imágenes de sistemas
   operativos listas para usar.
 
-- [ ] Instalar y configurar diferentes sistemas de provisionamiento.
+- [x] Instalar y configurar diferentes sistemas de provisionamiento.
 
-- [ ] Aprender lo suficiente de los lenguajes de programación usados por
+- [x] Aprender lo suficiente de los lenguajes de programación usados por
   los sistemas de aprovisionamiento para entender el Domain Specific
   Language usado por los mismos.
 
