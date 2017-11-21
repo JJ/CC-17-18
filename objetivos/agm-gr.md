@@ -40,3 +40,30 @@ Lista de objetivos de AGM-GR
 - [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
 - [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
 - [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
+
+## Semana 6
+
+- [x] Aprender a usar diferentes sistemas de provisionamiento de máquinas virtuales en la nube.
+- [x] Entender los diferentes conceptos subyacentes: servicio, estado.
+- [x] Tener listos diferentes sistemas cloud donde se puedan desplegar máquinas virtuales.
+- [x] Conocer diferentes lugares donde haya imágenes de sistemas operativos listas para usar.
+- [x] Instalar y configurar diferentes sistemas de provisionamiento.
+- [x] Aprender lo suficiente de los lenguajes de programación usados por los sistemas de aprovisionamiento para entender el Domain Specific Language usado por los mismos.
+
+## Semana 7
+
+- [x] Resolver problemas con el uso de los diferentes sistemas de provisionamiento en la nube.
+- [x] Revisar la actualización al tema y hacer los ejercicios corresondientes.
+- [x] Instalar los nuevos sistemas de aprovisionamiento de los que se habla en la nueva versión del tema y probarlos.
+- [x] Probar los provisionamientos creados en diferentes servicios.
+- [x] Probar con algún sistema operativo poco habitual, como OpenBSD.
+
+## Semana 8
+
+- [x] Entender los mecanismos básicos de los hipervisores y su soporte hardware.
+- [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube.
+- [x] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
+- [x] Terminar durante la semana el [hito 3 del proyecto](https://jj.github.io/CC/documentos/proyecto/3.IaaS)  del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
+- [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
+- [x] Aprender nociones básicas de Ruby.
+- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez.
