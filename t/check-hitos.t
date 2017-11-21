@@ -4,7 +4,7 @@ use Test::More;
 use Git;
 use LWP::Simple;
 use File::Slurper qw(read_text);
-
+use Net::Ping;
 
 use v5.14; # For say
 
@@ -68,6 +68,21 @@ EOC
     isnt( grep( /.yml/, @repo_files), 0, "Hay algún playbook en YAML presente" );
     isnt( grep( /provision/, @repo_files), 0, "Hay un directorio 'provision'" );
     isnt( grep( m{provision/\w+}, @repo_files), 0, "El directorio 'provision' no está vacío" );
+  }
+
+  my $README;
+
+  if ( $this_hito > 2 ) { # Comprobar milestones y eso 
+    isnt( grep( /acopio.sh/, @repo_files), 0, "Está el script de aprovisionamiento" );
+    $README =  read_text( "$repo_dir/README.md");
+    my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.+()\s+/);
+    if ( $deployment_ip ) {
+      diag "☑ Detectado URL de despliegue $deployment_ip";
+    } else {
+      diag "✗ Problemas detectando URL de despliegue";
+    }
+    my $pinger = Net::Ping->new();
+    isnt($p->ping($deployment_ip), 0, "$deployment_ip es alcanzable");
   }
 };
 
