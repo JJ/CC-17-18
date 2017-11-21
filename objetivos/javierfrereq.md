@@ -80,9 +80,17 @@ Lista de objetivos semanales - Freddy Frere
 - [x] Conocer diferentes lugares donde haya imágenes de sistemas operativos listas para usar.
 - [x] Instalar y configurar diferentes sistemas de provisionamiento.
 - [x] Aprender lo suficiente de los lenguajes de programación usados por los sistemas de aprovisionamiento para entender el Domain Specific Language usado por los mismos.
-<<<<<<< HEAD
-- [X] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub.
-=======
 - [x] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub.
->>>>>>> de51271a546b1d4bc5f30ca501c401cb79a96836
+
+## Semana 8
+
+**Objetivos:**
+
+- [x] Entender los mecanismos básicos de los hipervisores y su soporte hardware. 
+- [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube. 
+- [x] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
+- [x] Terminar durante la semana el [hito 3 del proyecto](https://jj.github.io/CC/documentos/proyecto/3.IaaS)  del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
+- [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
+- [x] Aprender nociones básicas de Ruby.
+- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
 
