@@ -75,7 +75,7 @@ EOC
   if ( $this_hito > 2 ) { # Comprobar milestones y eso 
     isnt( grep( /acopio.sh/, @repo_files), 0, "Está el script de aprovisionamiento" );
     $README =  read_text( "$repo_dir/README.md");
-    my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*(\S+)\s+/);
+    my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
     if ( $deployment_ip ) {
       diag "☑ Detectado URL de despliegue $deployment_ip";
     } else {
