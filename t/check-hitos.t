@@ -82,6 +82,7 @@ EOC
       diag "✗ Problemas detectando URL de despliegue";
     }
     my $pinger = Net::Ping->new();
+    $pinger->port_number(22);
     isnt($pinger->ping($deployment_ip), 0, "$deployment_ip es alcanzable");
   }
 };
