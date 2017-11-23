@@ -46,16 +46,16 @@
 
 ### Otros objetivos
 
-* [ ] Revisar los resultados del primer hito y entender los fallos. Si no
+* [x] Revisar los resultados del primer hito y entender los fallos. Si no
   se ha entregado todavía, lo dejamos para la clase del jueves.
 
 * [x] Tener manejo básico de los lenguajes usados en herramientas de
   provisionamiento, Python y Ruby.
 
-* [ ] Poner a punto hipervisores de uso local y sitios online que permitan
+* [x] Poner a punto hipervisores de uso local y sitios online que permitan
   usar máquinas virtuales para provisionar.
 
-* [ ] Decidir sistema de recuperación de la clase del 26 de octubre.
+* [x] Decidir sistema de recuperación de la clase del 26 de octubre.
 
 ## 4º Semana
 
@@ -69,7 +69,7 @@
 * [x] Comprender los errores cometidos en el hito entregado el lunes y volver a entregarlo en caso de error.
 * [x] Entender qué se espera del hito 2 y en qué consiste.
 * [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
-* [ ] Instalar las herramientas de línea de órdenes de las herramientas cloud.
+* [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
 * [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
 * [x] Avanzar un poco más con los lenguajes nubosos: Perl, Python y Ruby.
 
@@ -84,7 +84,7 @@
 
 * [x] Comprender los errores cometidos en el hito entregado el lunes y volver a entregarlo en caso de error.
 * [x] Conocer las diferentes ofertas y métodos de uso y creación de máquinas virtuales en la nube.
-* [ ] Instalar las herramientas de línea de órdenes de las herramientas cloud.
+* [x] Instalar las herramientas de línea de órdenes de las herramientas cloud.
 * [x] Hacerse con alguna cuenta gratuita o bonificada de cloud.
 * [x] Aprender la mínimo de los lenguajes necesarios para trabajar en la nube: Perl, Python y Ruby.
 
@@ -98,7 +98,7 @@
 ### Otros objetivos
 
 * [x] Tener listos diferentes sistemas cloud donde se puedan desplegar máquinas virtuales.
-* [ ] Conocer diferentes lugares donde haya imágenes de sistemas operativos listas para usar.
+* [x] Conocer diferentes lugares donde haya imágenes de sistemas operativos listas para usar.
 * [x] Instalar y configurar diferentes sistemas de provisionamiento.
 * [x] Aprender lo suficiente de los lenguajes de programación usados por los sistemas de aprovisionamiento para entender el Domain Specific Language usado por los mismos.
 * [x] Comprobar el hito entregado por algún compañero, si ya se ha entregado este hito. Entregadlo enlazado al objetivo y ponedle un issue a la persona a la que lo hayáis comprobado indicándole si ha habido alguna incidencia; también indicad en la columna adicional del fichero de entrega un tick de "Correcto" y vuestro nick de GitHub.
@@ -112,3 +112,17 @@
 ### Otros objetivos
 * [x] Probar los provisionamientos creados en diferentes servicios.
 * [ ] Probar con algún sistema operativo poco habitual, como OpenBSD para los provisionamientos.
+
+## 8º Semana
+
+### Objetivos a cubrir en esta semana
+* [x] Entender los mecanismos básicos de los hipervisores y su soporte hardware.
+* [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube.
+* [x] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
+
+
+### Otros objetivos
+* [x] Terminar durante la semana el hito 3 del proyecto del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
+* [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
+* [x] Aprender nociones básicas de Ruby.
+* [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez.
