@@ -19,10 +19,11 @@ Granada Geek.
 
 ##Material para esta semana
 
-* *Teoría*: 
+* *Teoría*:  Continuamos con
+  el [cuarto tema, orquestación de máquinas virtuales](http://jj.github.io/CC/documentos/temas/Orquestacion).
 
 * *Proyecto*: Comenzamos el [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/3.Orquestacion). se
-  entregará el próximo lunes *12 de diciembre*.
+  entregará el próximo martes *12 de diciembre*.
 
 ## Siguiente semana
 
