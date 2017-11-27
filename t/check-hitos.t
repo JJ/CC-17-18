@@ -81,9 +81,9 @@ EOC
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
     if ( $deployment_ip ) {
-      diag check() + "Detectada dirección de despliegue $deployment_ip";
+      diag "\n\t" + check() + "Detectada dirección de despliegue $deployment_ip\n";
     } else {
-      diag fail() + "Problemas detectando URL de despliegue";
+      diag "\n\t" +fail() + "Problemas detectando URL de despliegue\n";
     }
     my $pinger = Net::Ping->new();
     $pinger->port_number(22); # Puerto ssh
