@@ -35,4 +35,4 @@ cómo trabajan unos con otros.
 
 ## Siguiente semana
 
-[Novena semana](9-semana.md)
+[Novena semana](09-semana.md)
