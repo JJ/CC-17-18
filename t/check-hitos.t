@@ -19,6 +19,7 @@ SKIP: {
   skip "No hay envío de proyecto", 5 unless defined $this_hito;
   my $diag=<<EOC;
 
+
 "Failed test" indica que no se cumple la condición indicada
 Hay que corregir el envío y volver a hacer el pull request,
 aumentando en uno el número de la versión del hito en el
