@@ -5,6 +5,7 @@ use Git;
 use LWP::Simple;
 use File::Slurper qw(read_text);
 use Net::Ping;
+use Term::ANSIColor qw(:constants);
 
 use v5.14; # For say
 
@@ -35,8 +36,9 @@ EOC
   if ( $adds[0] =~ /\(http/ ) {
     ($url_repo) = ($adds[0] =~ /\((http\S+)\)/);
   } else {
-    ($url_repo) = ($adds[0] =~ /^\+.+(http\S+)/s);
+    ($url_repo) = ($adds[0] =~ /^\+.+(http\S+)\b/s);
   }
+  diag check() + "Encontrado URL del repo $url_repo";
   say $url_repo;
   isnt($url_repo,"","El envío incluye un URL");
   like($url_repo,qr/github.com/,"El URL es de GitHub");
@@ -79,9 +81,9 @@ EOC
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
     if ( $deployment_ip ) {
-      diag "☑ Detectado URL de despliegue $deployment_ip";
+      diag check() + "Detectada dirección de despliegue $deployment_ip";
     } else {
-      diag "✗ Problemas detectando URL de despliegue";
+      diag fail() + "Problemas detectando URL de despliegue";
     }
     my $pinger = Net::Ping->new();
     $pinger->port_number(22); # Puerto ssh
@@ -112,3 +114,10 @@ sub closes_from_commit {
   return $page =~ /closed\s+this\s+in/gs ;
 
 }
+
+sub check() {
+  return BOLD, GREEN, "✔", RESET;
+}
+
+sub fail() {
+  return BOLD, PURPLE, "✘", RESET;
