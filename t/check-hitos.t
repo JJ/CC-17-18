@@ -122,3 +122,4 @@ sub check() {
 
 sub fail() {
   return BOLD, PURPLE, "✘", RESET;
+}
