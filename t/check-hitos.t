@@ -39,7 +39,7 @@ EOC
   } else {
     ($url_repo) = ($adds[0] =~ /^\+.+(http\S+)\b/s);
   }
-  diag check() + "Encontrado URL del repo $url_repo";
+  diag(check() + "Encontrado URL del repo $url_repo");
   say $url_repo;
   isnt($url_repo,"","El envío incluye un URL");
   like($url_repo,qr/github.com/,"El URL es de GitHub");
@@ -84,7 +84,7 @@ EOC
     if ( $deployment_ip ) {
       diag "\n\t" + check() + "Detectada dirección de despliegue $deployment_ip\n";
     } else {
-      diag "\n\t" +fail() + "Problemas detectando URL de despliegue\n";
+      diag "\n\t" + fail() + "Problemas detectando URL de despliegue\n";
     }
     my $pinger = Net::Ping->new();
     $pinger->port_number(22); # Puerto ssh
@@ -117,9 +117,9 @@ sub closes_from_commit {
 }
 
 sub check() {
-  return BOLD, GREEN, "✔", RESET;
+  return BOLD.GREEN ."✔".RESET;
 }
 
 sub fail() {
-  return BOLD, MAGENTA, "✘", RESET;
+  return BOLD.MAGENTA."✘".RESET;
 }
