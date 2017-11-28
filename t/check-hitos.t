@@ -19,7 +19,6 @@ SKIP: {
   skip "No hay envío de proyecto", 5 unless defined $this_hito;
   my $diag=<<EOC;
 
-
 "Failed test" indica que no se cumple la condición indicada
 Hay que corregir el envío y volver a hacer el pull request,
 aumentando en uno el número de la versión del hito en el
@@ -39,7 +38,7 @@ EOC
   } else {
     ($url_repo) = ($adds[0] =~ /^\+.+(http\S+)\b/s);
   }
-  diag check() + "Encontrado URL del repo $url_repo";
+  diag(check( "Encontrado URL del repo $url_repo" ));
   say $url_repo;
   isnt($url_repo,"","El envío incluye un URL");
   like($url_repo,qr/github.com/,"El URL es de GitHub");
@@ -82,9 +81,9 @@ EOC
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
     if ( $deployment_ip ) {
-      diag "\n\t" + check() + "Detectada dirección de despliegue $deployment_ip\n";
+      diag "\n\t".check( "Detectada dirección de despliegue $deployment_ip" )."\n";
     } else {
-      diag "\n\t" +fail() + "Problemas detectando URL de despliegue\n";
+      diag "\n\t".fail_x( "Problemas detectando URL de despliegue" )."\n";
     }
     my $pinger = Net::Ping->new();
     $pinger->port_number(22); # Puerto ssh
@@ -117,9 +116,9 @@ sub closes_from_commit {
 }
 
 sub check() {
-  return BOLD, GREEN, "✔", RESET;
+  return BOLD.GREEN ."✔ ".RESET.join(" ",@_);
 }
 
-sub fail() {
-  return BOLD, MAGENTA, "✘", RESET;
+sub fail_x() {
+  return BOLD.MAGENTA."✘".RESET.join(" ",@_);
 }
