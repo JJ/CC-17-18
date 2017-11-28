@@ -84,7 +84,7 @@ EOC
     if ( $deployment_ip ) {
       diag "\n\t" + check() + "Detectada dirección de despliegue $deployment_ip\n";
     } else {
-      diag "\n\t" + fail() + "Problemas detectando URL de despliegue\n";
+      diag "\n\t" + fail_x() + "Problemas detectando URL de despliegue\n";
     }
     my $pinger = Net::Ping->new();
     $pinger->port_number(22); # Puerto ssh
@@ -120,6 +120,6 @@ sub check() {
   return BOLD.GREEN ."✔".RESET;
 }
 
-sub fail() {
+sub fail_x() {
   return BOLD.MAGENTA."✘".RESET;
 }
