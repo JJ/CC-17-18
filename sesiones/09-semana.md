@@ -11,13 +11,13 @@ Granada Geek.
 
 2. Asimilar los conceptos relacionados con tales sistemas.
 
-##Objetivos adicionales
+## Objetivos adicionales
 
 1. Instalarse los diferentes clientes de líneas de órdenes de los
    sistemas en la nube a los que se tenga acceso. 
 
 
-##Material para esta semana
+## Material para esta semana
 
 * *Teoría*:  Continuamos con
   el [cuarto tema, orquestación de máquinas virtuales](http://jj.github.io/CC/documentos/temas/Orquestacion).
