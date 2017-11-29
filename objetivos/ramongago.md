@@ -92,22 +92,22 @@ Lista de objetivos semanales - Ramón Gago Carrera
 # Semana 07
 ## Objetivos:
 
-- [ ] Resolver problemas con el uso de los diferentes sistemas de provisionamiento en la nube.
+- [x] Resolver problemas con el uso de los diferentes sistemas de provisionamiento en la nube.
 
 ## Otros objetivos:
-- [ ] Probar los provisionamientos creados en diferentes servicios.
-- [ ] Probar con algún sistema operativo poco habitual, como OpenBSD para los provisionamientos.
+- [x] Probar los provisionamientos creados en diferentes servicios.
+- [x] Probar con algún sistema operativo poco habitual, como OpenBSD para los provisionamientos.
 
 # Semana 08
 ## Objetivos:
 
-- [ ] Entender los mecanismos básicos de los hipervisores y su soporte
+- [x] Entender los mecanismos básicos de los hipervisores y su soporte
    hardware. 
-- [ ] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube. 
-- [ ] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
+- [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube. 
+- [x] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
 
 ## Otros objetivos:
-- [ ] Terminar el hito 2 del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
-- [ ] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
-- [ ] Aprender nociones básicas de Ruby.
-- [ ] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
+- [x] Terminar el hito 2 del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
+- [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
+- [x] Aprender nociones básicas de Ruby.
+- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
