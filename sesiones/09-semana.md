@@ -22,7 +22,7 @@ Granada Geek.
 * *Teoría*:  Continuamos con
   el [cuarto tema, orquestación de máquinas virtuales](http://jj.github.io/CC/documentos/temas/Orquestacion).
 
-* *Proyecto*: Comenzamos el [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/3.Orquestacion). se
+* *Proyecto*: Comenzamos el [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/4.Orquestacion). se
   entregará el próximo martes *12 de diciembre*.
 
 ## Siguiente semana
