@@ -68,7 +68,7 @@ EOC
     }
   }
 
-  if ( $this_hito > 1 ) { # Comprobar milestones y eso 
+  if ( $this_hito > 1 ) { # Comprobar provisionamiento
     isnt( grep( /.yml/, @repo_files), 0, "Hay algún playbook en YAML presente" );
     isnt( grep( /provision/, @repo_files), 0, "Hay un directorio 'provision'" );
     isnt( grep( m{provision/\w+}, @repo_files), 0, "El directorio 'provision' no está vacío" );
@@ -76,22 +76,29 @@ EOC
 
   my $README;
 
-  if ( $this_hito > 2 ) { # Comprobar milestones y eso 
+  if ( $this_hito > 2 ) { # Comprobar script para acopiar las máquinas 
     isnt( grep( /acopio.sh/, @repo_files), 0, "Está el script de aprovisionamiento" );
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
-    if ( $deployment_ip ) {
-      diag "\n\t".check( "Detectada dirección de despliegue $deployment_ip" )."\n";
-    } else {
-      diag "\n\t".fail_x( "Problemas detectando URL de despliegue" )."\n";
-    }
-    my $pinger = Net::Ping->new();
-    $pinger->port_number(22); # Puerto ssh
-    isnt($pinger->ping($deployment_ip), 0, "$deployment_ip es alcanzable");
+    SKIP: {
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 3;
+      check_ip($deployment_ip);
+    };
+  }
+
+  if ( $this_hito > 3 ) { # Comprobar script para acopiar las máquinas
+    isnt( grep( /orquestacion/, @repo_files), 0, "Hay un directorio 'orquestacion'" );
+    isnt( grep( m{orquestacion/Vagrantfile}, @repo_files), 0, "El directorio 'orquestacion' tiene un fichero 'Vagrantfile'" );
+    my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
+
+    check_ip($deployment_ip);
   }
 };
 
 done_testing();
+
+
+# ------------------------------- Subs -----------------------------------
 
 sub how_many_milestones {
   my ($user,$repo) = @_;
@@ -115,10 +122,22 @@ sub closes_from_commit {
 
 }
 
-sub check() {
+sub check {
   return BOLD.GREEN ."✔ ".RESET.join(" ",@_);
 }
 
-sub fail_x() {
+sub fail_x {
   return BOLD.MAGENTA."✘".RESET.join(" ",@_);
+}
+
+sub check_ip {
+  my $ip = shift;
+  if ( $ip ) {
+    diag "\n\t".check( "Detectada dirección de despliegue $ip" )."\n";
+  } else {
+    diag "\n\t".fail_x( "Problemas detectando URL de despliegue" )."\n";
+  }
+  my $pinger = Net::Ping->new();
+  $pinger->port_number(22); # Puerto ssh
+  isnt($pinger->ping($ip), 0, "$ip es alcanzable");
 }
