@@ -1,6 +1,8 @@
 Clases de Cloud Computing
 ======
 
+[![Build Status](https://travis-ci.org/JJ/CC-17-18.svg?branch=master)](https://travis-ci.org/JJ/CC-17-18)
+
 ## Cloud Computing I COMO
 
 Para navegar por la asignatura,
