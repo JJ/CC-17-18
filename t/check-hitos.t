@@ -80,8 +80,10 @@ EOC
     isnt( grep( /acopio.sh/, @repo_files), 0, "Está el script de aprovisionamiento" );
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
-
-    check_ip($deployment_ip);
+    SKIP: {
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 3;
+      check_ip($deployment_ip);
+    };
   }
 
   if ( $this_hito > 3 ) { # Comprobar script para acopiar las máquinas
