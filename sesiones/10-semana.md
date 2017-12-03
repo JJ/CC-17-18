@@ -8,17 +8,16 @@
 
 ## Objetivos adicionales
 
-1. Preparar Vagrant para diferentes proveedores de nube. 
+1. Resolver los problemas con Vagrant para diferentes proveedores de nube. 
 2. Probar diferentes proveedores de nube y ver las posibilidades que
    ofrecen. 
 
 
 ## Material para esta semana
 
-* *Teoría*: Comenzamos el
-  [tema sobre configuración en la nube](http://jj.github.io/CC/documentos/temas/Automatizando_cloud).
+* *Teoría*: Comenzamos a hablar de [virtualización ligera usando contenedores](http://jj.github.io/CC/documentos/temas/Contenedores)
 
-* *Proyecto*: Continuamos con el [hito 3 del proyecto](http://jj.github.io/CC/documentos/proyecto/3.Orquestacion). se
+* *Proyecto*: Continuamos con el [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/4.Orquestacion). se
   entregará el próximo lunes *12 de diciembre*.
 
 ## Siguiente semana
