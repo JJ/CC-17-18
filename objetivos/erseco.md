@@ -91,3 +91,12 @@ Lista de objetivos de erseco
 * [x] Resolver los problemas con Vagrant para diferentes proveedores de nube.
 * [x] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
 
+## Semana 10
+
+* [x] Entender el concepto de contenedor.
+* [x] Comprender su encaje en la infraestructura virtual.
+* [x] Instalar lxc en Linux y probar los ejemplos.
+* [x] Conocer sistemas operativos "ligeros" especializados para su uso en contenedores tales como Alpine, Plamo u otros.
+
+
+
