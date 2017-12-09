@@ -120,3 +120,24 @@
 - [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
 - [x] Aprender nociones básicas de Ruby.
 - [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
+
+## 9º Semana
+
+### Objetivos a cubrir en esta semana
+* [x] Entender el funcionamiento básico de los sistemas de gestión de recursos en la nube.
+* [x] Asimilar los conceptos relacionados con tales sistemas.
+
+### Objetivos adicionales
+* [x] Instalarse los diferentes clientes de líneas de órdenes de los sistemas en la nube a los que se tenga acceso.
+
+## 10º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Entender los recursos para automatización de actividades en la nube
+* [x] Entender el concepto de infraestructura definida por software.
+
+### Objetivos adicionales
+
+* [ ] Resolver los problemas con Vagrant para diferentes proveedores de nube.
+* [x] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
