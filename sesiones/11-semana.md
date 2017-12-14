@@ -23,7 +23,10 @@
 
 * *Teoría*: Continuamos con [virtualización ligera usando contenedores](http://jj.github.io/CC/documentos/temas/Contenedores).
 
-* *Proyecto*: Antes de esta clase se tendría que haber entregado el [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/4.Orquestacion). 
+* *Proyecto*: Antes de esta clase se tendría que haber entregado
+  el
+  [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/4.Orquestacion). Se
+  comienza con el [hito siguiente](http://jj.github.io/CC/documentos/proyecto/5.Docker).
 
 ## Siguiente semana
 
