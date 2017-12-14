@@ -103,16 +103,71 @@ Lista de objetivos de Jose Daniel Salas Villaldea
 
 ## Objetivos de la asignatura
 
-- [ ] Resolver problemas con el uso de los diferentes sistemas de
+- [x] Resolver problemas con el uso de los diferentes sistemas de
    provisionamiento en la nube.
 
-- [ ] Revisar la actualización al tema y hacer los ejercicios corresondientes.
+- [x] Revisar la actualización al tema y hacer los ejercicios corresondientes.
 
 ## Objetivos adicionales
 
-- [ ] Instalar los nuevos sistemas de aprovisionamiento de los que se
+- [x] Instalar los nuevos sistemas de aprovisionamiento de los que se
   habla en la nueva versión del tema y probarlos.
 
-- [ ] Probar los provisionamientos creados en diferentes servicios.
+- [x] Probar los provisionamientos creados en diferentes servicios.
 
-- [ ] Probar con algún sistema operativo poco habitual, como OpenBSD.
+- [x] Probar con algún sistema operativo poco habitual, como OpenBSD.
+
+# Octava Semana
+
+## Objetivos a cubrir en esta semana
+* [x] Entender los mecanismos básicos de los hipervisores y su soporte hardware.
+* [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube.
+* [x] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
+
+
+## Objetivos adicionales
+* [x] Terminar durante la semana el hito 3 del proyecto del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
+* [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
+* [x] Aprender nociones básicas de Ruby.
+* [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez.
+
+# Novena Semana
+
+## Objetivos a cubrir en esta semana
+* [x] Entender el funcionamiento básico de los sistemas de gestión de recursos en la nube.
+* [x] Asimilar los conceptos relacionados con tales sistemas.
+
+## Objetivos adicionales
+* [x] Instalarse los diferentes clientes de líneas de órdenes de los sistemas en la nube a los que se tenga acceso.
+
+# Décima Semana
+
+## Objetivos a cubrir en esta semana
+
+* [x] Entender los recursos para automatización de actividades en la nube
+* [x] Entender el concepto de infraestructura definida por software.
+
+## Objetivos adicionales
+
+* [x] Resolver los problemas con Vagrant para diferentes proveedores de nube.
+* [x] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
+
+# Undécima semana
+
+## Objetivos de la asignatura
+
+* [x] Entender el concepto de contenedor.
+* [x] Comprender su encaje en la infraestructura virtual.
+
+## Objetivos adicionales
+
+* [x] Instalar `lxc` en Linux y probar los ejemplos.
+
+* [x] Instalar Docker y aprender las buenas prácticas para el uso del mismo.
+
+* [x] Conocer sistemas operativos "ligeros"
+   [especializados para su uso en contenedores](http://linuxbsdos.com/2015/04/04/6-operating-systems-designed-just-for-docker-and-other-container-runtimes/) tales
+   como Alpine, Plamo u otros.
+
+* [x] Crear contenedores manualmente a partir de las imágenes base de
+   esos sistemas operativos.
