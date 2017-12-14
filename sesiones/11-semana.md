@@ -26,7 +26,7 @@
 * *Proyecto*: Antes de esta clase se tendría que haber entregado
   el
   [hito 4 del proyecto](http://jj.github.io/CC/documentos/proyecto/4.Orquestacion). Se
-  comienza con el [hito siguiente](http://jj.github.io/CC/documentos/proyecto/5.Docker).
+  comienza con el [hito siguiente](http://jj.github.io/CC/documentos/proyecto/5.Docker). La fecha de entrega del hito es el **11 de enero**.
 
 ## Siguiente semana
 
