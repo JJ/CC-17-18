@@ -88,9 +88,12 @@ EOC
 
   if ( $this_hito > 3 ) { # Comprobar script para acopiar las máquinas
     isnt( grep( /orquestacion/, @repo_files), 0, "Hay un directorio 'orquestacion'" );
+    
     isnt( grep( m{orquestacion/Vagrantfile}, @repo_files), 0, "El directorio 'orquestacion' tiene un fichero 'Vagrantfile'" );
-    my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
+    my $vagrantfile = read_text( "$repo_dir/orquestacion/Vagrantfile");
+    like($vagrantfile,qr/vm.provision/,"El Vagrantfile incluye provisionamiento");
 
+    my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
     check_ip($deployment_ip);
   }
 };
