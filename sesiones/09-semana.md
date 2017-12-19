@@ -1,4 +1,4 @@
-# Novena semana, comienza el 28 de noviembre de 2016
+# Novena semana, comienza el 28 de noviembre de 2017
 
 También hay diferentes actividades esta semana. Informaros en el
 [Telegram del Hacklab Granada](http://telegram.me/grhacklab) o en el MeetUp de
