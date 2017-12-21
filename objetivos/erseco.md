@@ -22,7 +22,7 @@ Lista de objetivos de erseco
 - [x] Entender las arquitecturas de software en la nube de uso en la actualidad.
 - [x] Comprender el paper fundamental de la infraestructura virtual en este proceso.
 - [x] Entender en qué consiste la [infraestructura como software](https://jj.github.io/CC/documentos/temas/Provision)
-- [x] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves. 
+- [x] Revisar los resultados del primer hito y entender los fallos. Si no se ha entregado todavía, lo dejamos para la clase del jueves.
 - [x] Tener manejo básico de los lenguajes usados en herramientas de provisionamiento, Python y Ruby.
 - [x] Poner a punto hipervisores de uso local y sitios online que permitan usar máquinas virtuales para provisionar.
 - [x] Decidir sistema de recuperación de la clase del 26 de octubre.
@@ -70,13 +70,13 @@ Lista de objetivos de erseco
 
 ## Semana 8
 
-- [x] Entender los mecanismos básicos de los hipervisores y su soporte hardware. 
-- [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube. 
+- [x] Entender los mecanismos básicos de los hipervisores y su soporte hardware.
+- [x] Conocer herramientas de alto nivel que permitan trabajar con los hipervisores localmente o en la nube.
 - [x] Entender los diferentes niveles de definición de infraestructura y cómo trabajan unos con otros.
 - [x] Terminar durante la semana el [hito 3 del proyecto](https://jj.github.io/CC/documentos/proyecto/3.IaaS)  del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
 - [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
 - [x] Aprender nociones básicas de Ruby.
-- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
+- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez.
 
 ## Semana 9
 
@@ -97,6 +97,25 @@ Lista de objetivos de erseco
 * [x] Comprender su encaje en la infraestructura virtual.
 * [x] Instalar lxc en Linux y probar los ejemplos.
 * [x] Conocer sistemas operativos "ligeros" especializados para su uso en contenedores tales como Alpine, Plamo u otros.
+
+## Semana 11
+
+* [x] Entender el concepto de contenedor.
+* [x] Comprender su encaje en la infraestructura virtual.
+* [x] Instalar `lxc` en Linux y probar los ejemplos.
+* [x] Instalar Docker y aprender las buenas prácticas para el uso del mismo.
+* [x] Conocer sistemas operativos "ligeros"
+   [especializados para su uso en contenedores](http://linuxbsdos.com/2015/04/04/6-operating-systems-designed-just-for-docker-and-other-container-runtimes/) tales como Alpine, Plamo u otros.
+* [x] Crear contenedores manualmente a partir de las imágenes base de esos sistemas operativos.
+
+## Semana 12
+
+* [x] Entender el papel de los contenedores en la infraestructura virtual.
+* [x] Comprender los procesos de definición de contenedores.
+* [x] Análisis post-mortem del último hito.
+  * [x] Similaridades entre entregas.
+  * [x] Falta de provisionamiento.
+* [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker.
 
 
 
