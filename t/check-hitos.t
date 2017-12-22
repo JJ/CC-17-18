@@ -6,6 +6,7 @@ use LWP::Simple;
 use File::Slurper qw(read_text);
 use Net::Ping;
 use Term::ANSIColor qw(:constants);
+use JSON;
 
 use v5.14; # For say
 
@@ -81,7 +82,7 @@ EOC
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
     SKIP: {
-      skip "Ya en el hito siguiente", 1 unless $this_hito < 3;
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 4;
       check_ip($deployment_ip);
     };
   }
@@ -94,12 +95,14 @@ EOC
     like($vagrantfile,qr/vm.provision/,"El Vagrantfile incluye provisionamiento");
 
     my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
-    check_ip($deployment_ip);
+  SKIP: {
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 5;
+      check_ip($deployment_ip);
+    }
   }
 
   if ( $this_hito > 4 ) { # Despliegue en algún lado
-    doing("hito 4");
-    my ($deployment_url) = ($README =~ /(?:[Cc]ontenedor|[Cc]ontainer).+(https:..\S+)\b/);
+    my ($deployment_url) = ($README =~ /(?:[Cc]ontenedor|[Cc]ontainer).+(https?:..\S+)\b/);
     if ( $deployment_url ) {
       diag "☑ Detectado URL de despliegue $deployment_url";
     } else {
