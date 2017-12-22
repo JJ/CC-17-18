@@ -94,7 +94,10 @@ EOC
     like($vagrantfile,qr/vm.provision/,"El Vagrantfile incluye provisionamiento");
 
     my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
-    check_ip($deployment_ip);
+  SKIP: {
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 4;
+      check_ip($deployment_ip);
+    }
   }
 
   if ( $this_hito > 4 ) { # Despliegue en algún lado
