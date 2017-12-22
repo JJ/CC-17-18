@@ -6,6 +6,7 @@ use LWP::Simple;
 use File::Slurper qw(read_text);
 use Net::Ping;
 use Term::ANSIColor qw(:constants);
+use JSON;
 
 use v5.14; # For say
 
@@ -81,7 +82,7 @@ EOC
     $README =  read_text( "$repo_dir/README.md");
     my ($deployment_ip) = ($README =~ /(?:[Dd]espliegue|[Dd]eployment):.*?(\S+)\s+/);
     SKIP: {
-      skip "Ya en el hito siguiente", 1 unless $this_hito < 3;
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 4;
       check_ip($deployment_ip);
     };
   }
@@ -95,7 +96,7 @@ EOC
 
     my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
   SKIP: {
-      skip "Ya en el hito siguiente", 1 unless $this_hito < 4;
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 5;
       check_ip($deployment_ip);
     }
   }
