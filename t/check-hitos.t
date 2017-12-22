@@ -101,7 +101,6 @@ EOC
   }
 
   if ( $this_hito > 4 ) { # Despliegue en algún lado
-    doing("hito 4");
     my ($deployment_url) = ($README =~ /(?:[Cc]ontenedor|[Cc]ontainer).+(https:..\S+)\b/);
     if ( $deployment_url ) {
       diag "☑ Detectado URL de despliegue $deployment_url";
