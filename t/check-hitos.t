@@ -96,6 +96,29 @@ EOC
     my ($deployment_ip) = ($README =~ /Despliegue Vagrant:\s*(\S+)\s+/);
     check_ip($deployment_ip);
   }
+
+  if ( $this_hito > 4 ) { # Despliegue en algún lado
+    doing("hito 4");
+    my ($deployment_url) = ($README =~ /(?:[Cc]ontenedor|[Cc]ontainer).+(https:..\S+)\b/);
+    if ( $deployment_url ) {
+      diag "☑ Detectado URL de despliegue $deployment_url";
+    } else {
+      diag "✗ Problemas detectando URL de despliegue";
+    }
+    isnt( $deployment_url, "", "URL de despliegue hito 5");
+    my $status = get "$deployment_url/status";
+    isnt( $status, undef, "Despliegue hecho en $deployment_url" );
+    my $status_ref = from_json( $status );
+    like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status de $deployment_url correcto");
+    
+    isnt( grep( /Dockerfile/, @repo_files), 0, "Dockerfile presente" );
+
+    my ($dockerhub_url) = ($README =~ m{(https://hub.docker.com/r/\S+)\b});
+    diag "Detectado URL de Docker Hub '$dockerhub_url'";
+    my $dockerhub = get $dockerhub_url;
+    like( $dockerhub, qr/Last pushed:.+ago/, "Dockerfile actualizado en Docker Hub");
+  }
+
 };
 
 done_testing();
