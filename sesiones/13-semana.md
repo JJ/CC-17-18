@@ -15,10 +15,8 @@ Primera semana del año.
 
 ## Material para esta semana
 
-* *Teoría*: Continuamos con
-  la
-  [configuración de sistemas distribuidos](http://jj.github.io/CC/documentos/temas/Orquestacion#configuracin-de-sistemas-distribuidos),
-  para usar docker.
+* *Teoría*: Continuamos con la [virtualización ligera usando contenedores](http://jj.github.io/CC/documentos/temas/Contenedores)
+para usar docker.
 
 * *Proyecto*: Trabajando con
   el
