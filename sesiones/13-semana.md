@@ -1,4 +1,4 @@
-# Décimo tercera semana, comienza el 9 de enero de 2017
+# Décimo tercera semana, comienza el 9 de enero de 2018
 
 Primera semana del año.
 
@@ -11,7 +11,6 @@ Primera semana del año.
 ## Objetivos adicionales
 
 1. Trabajar con CoreOS
-
 2. Entender `etcd`  y los mecanismos de coordinación. 
 
 ## Material para esta semana
@@ -21,7 +20,12 @@ Primera semana del año.
   [configuración de sistemas distribuidos](http://jj.github.io/CC/documentos/temas/Orquestacion#configuracin-de-sistemas-distribuidos),
   para usar docker.
 
-
+* *Proyecto*: Trabajando con
+  el
+  [hito sobre contenedores](http://jj.github.io/CC/documentos/proyecto/5.Docker). La
+  fecha de entrega del hito es el próximo jueves **11 de enero**,
+  dentro de esta sesión.
+  
 ## Siguiente semana
 
 [Décimocuarta semana](14-semana.md)
