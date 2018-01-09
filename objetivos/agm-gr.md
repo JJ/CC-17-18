@@ -85,3 +85,8 @@ Lista de objetivos de AGM-GR
 
 * [x] Entender el concepto de contenedor.
 * [x] Comprender su encaje en la infraestructura virtual.
+
+## 12º Semana
+
+* [x] Entender el papel de los contenedores en la infraestructura virtual.
+* [x] Comprender los procesos de definición de contenedores.
