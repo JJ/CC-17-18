@@ -98,7 +98,12 @@ Objetivos - Dayana Aguirre Iniguez.
 * [x] Resolver los problemas con Vagrant para diferentes proveedores de nube.
 * [x] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
 
-## Duodécima Semana 
+## Undécima Semana 
 
 * [x] Entender el concepto de contenedor.
 * [x] Comprender su encaje en la infraestructura virtual.
+
+## Duodécima Semana
+
+* [x] Entender el papel de los contenedores en la infraestructura virtual.
+* [x] Comprender los procesos de definición de contenedores.
