@@ -143,3 +143,36 @@
 
 * [ ] Resolver los problemas con Vagrant para diferentes proveedores de nube.
 * [x] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
+
+## **11º** Semana
+
+**Objetivos**
+
+* [x] Entender el concepto de contenedor.
+* [x] Comprender su encaje en la infraestructura virtual.
+
+**Otros objetivos**
+
+* [ ] Instalar `lxc` en Linux y probar los ejemplos.
+* [x] Instalar Docker y aprender las buenas prácticas para el uso del mismo.
+* [x] Conocer sistemas operativos "ligeros"
+   [especializados para su uso en contenedores](http://linuxbsdos.com/2015/04/04/6-operating-systems-designed-just-for-docker-and-other-container-runtimes/) tales
+   como Alpine, Plamo u otros.
+* [x] Crear contenedores manualmente a partir de las imágenes base de
+   esos sistemas operativos.
+
+## **12º** Semana
+
+**Objetivos**
+
+* [x] Entender el papel de los contenedores en la infraestructura virtual.
+* [x] Comprender los procesos de definición de contenedores.
+
+**Otros objetivos**
+
+* [x] Análisis post-mortem del último hito.
+* [x] Similaridades entre entregas.
+* [x] Falta de provisionamiento.
+
+* [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de
+  las herramientas de Docker.
