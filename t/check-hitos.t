@@ -119,7 +119,7 @@ EOC
     my ($dockerhub_url) = ($README =~ m{(https://hub.docker.com/r/\S+)\b});
     diag "Detectado URL de Docker Hub '$dockerhub_url'";
     my $dockerhub = get $dockerhub_url;
-    like( $dockerhub, qr/Last pushed:.+ago/, "Dockerfile actualizado en Docker Hub");
+    like( $dockerhub, qr/Last pushed:.+ago/, "Dockerfile actualizado y en Docker Hub");
   }
 
 };

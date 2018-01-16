@@ -16,7 +16,7 @@ Primera semana del año, último mes del curso.
 
 ## Material para esta semana
 
-* *Teoría*: Terminamos con
+* *Teoría*: Seguimos con
   la
   [virtualización ligera usando contenedores](http://jj.github.io/CC/documentos/temas/Contenedores) para
   usar Docker.
