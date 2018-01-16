@@ -20,7 +20,9 @@
 * *Teoría*: Continuamos con los 
   [contenedores](http://jj.github.io/CC/documentos/temas/Contenedores).
 
-* *Proyecto*: Entrega del último hito del proyecto (sólo si cumples los requisitos): 1 de febrero.
+*
+  *Proyecto*: [Uso de Docker Compose](http://jj.github.io/CC/documentos/proyecto/6.Compose) Entrega del último hito del proyecto (sólo si cumples
+  los requisitos): 1 de febrero. 
 
 ## Siguiente semana
 
