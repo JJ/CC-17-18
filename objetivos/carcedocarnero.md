@@ -92,4 +92,45 @@
 - [x] Terminar durante la semana el hito 3 del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
 - [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
 - [x] Aprender nociones básicas de Ruby.
-- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
+- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez.
+
+## Objetivos Semana 9
+
+- [x] Entender el funcionamiento básico de los sistemas de gestión de recursos en la nube.
+- [x] Asimilar los conceptos relacionados con tales sistemas. 
+- [x] Instalarse los diferentes clientes de líneas de órdenes de los sistemas en la nube a los que se tenga acceso.
+
+## Objetivos Semana 10
+
+- [x] Entender los recursos para automatización de actividades en la nube
+- [x] Entender el concepto de infraestructura definida por software.
+
+## Objetivos adicionales
+
+- [ ] Resolver los problemas con Vagrant para diferentes proveedores de nube.
+- [ ] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
+
+
+## Objetivos Semana 11
+
+- [x] Entender el concepto de contenedor.
+- [x] Comprender su encaje en la infraestructura virtual.
+
+## Otros objetivos
+
+- [x] Instalar lxc en Linux y probar los ejemplos.
+- [x] Instalar Docker y aprender las buenas prácticas para el uso del mismo.
+- [ ] Conocer sistemas operativos "ligeros" especializados para su uso en contenedores tales como Alpine, Plamo u otros.
+- [ ] Crear contenedores manualmente a partir de las imágenes base de esos sistemas operativos.
+
+
+## Objetivos Semana 12
+
+- [x] Entender el papel de los contenedores en la infraestructura virtual.
+- [x] Comprender los procesos de definición de contenedores.
+
+## Objetivos adicionales
+
+- [x] Análisis post-mortem del último hito.
+- [x] Falta de provisionamiento. [Solucionado](https://github.com/migadepan/Master_CC/blob/master/orquestacion/Vagrantfile)
+- [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker.
