@@ -118,4 +118,23 @@ Lista de objetivos de erseco
 * [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker.
 
 
+## Semana 13
+
+* [x] Conocer sistemas operativos específicos para trabajar con contenedores.
+* [x] Entender los mecanismos de coordinación de contenedores.
+* [x] Repaso y dudas sobre el último hito de la práctica.
+* [x] Resolver dudas relacionadas con el hito 5.
+* [x] Trabajar con CoreOS.
+* [x] Entender `etcd` y los mecanismos de coordinación.
+
+## Semana 14
+
+* [x] Entender la composición de servicios usando Docker.
+* [x] Comprender el concepto de microservicios y su arquitectura.
+* [x] Entender la composición de la nota final.
+* [x] Entender el concepto de ejercicios de autoevaluación.
+
+## Semana 15
+
+* [ ] work in progress...
 
