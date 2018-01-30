@@ -122,6 +122,23 @@ EOC
     like( $dockerhub, qr/Last pushed:.+ago/, "Dockerfile actualizado y en Docker Hub");
   }
 
+   if ( $this_hito > 5 ) { # Despliegue combinado
+    my ($deployment_url) = ($README =~ /(?:[Hh]ito6).+(https?:..\S+)\b/);
+    if ( $deployment_url ) {
+      diag "☑ Detectado URL de despliegue $deployment_url";
+    } else {
+      diag "✗ Problemas detectando URL de despliegue";
+    }
+    isnt( $deployment_url, "", "URL de despliegue hito 6");
+    my $status = get "$deployment_url/status";
+    isnt( $status, undef, "Despliegue correctamente realizado en $deployment_url" );
+    my $status_ref = from_json( $status );
+    like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status de $deployment_url correcto");
+    
+    isnt( grep( /docker-compose.yml/, @repo_files), 0, "Fichero de docker-compose presente" );
+
+  }
+
 };
 
 done_testing();
