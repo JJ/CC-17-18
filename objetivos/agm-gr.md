@@ -86,7 +86,22 @@ Lista de objetivos de AGM-GR
 * [x] Entender el concepto de contenedor.
 * [x] Comprender su encaje en la infraestructura virtual.
 
-## 12º Semana
+## Semana 12
 
 * [x] Entender el papel de los contenedores en la infraestructura virtual.
 * [x] Comprender los procesos de definición de contenedores.
+
+## Semana 13
+
+* [x] Conocer sistemas operativos específicos para trabajar con contenedores.
+* [x] Entender los mecanismos de coordinación de contenedores.
+* [x] Repaso y dudas sobre el último hito de la práctica.
+
+## Semana 14
+
+* [x] Entender la composición de servicios usando Docker.
+* [x] Comprender el concepto de microservicios y su arquitectura.
+
+## Semana 15
+
+* [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
