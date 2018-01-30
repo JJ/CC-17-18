@@ -133,4 +133,4 @@
 
 - [x] Análisis post-mortem del último hito.
 - [x] Falta de provisionamiento. [Solucionado](https://github.com/migadepan/Master_CC/blob/master/orquestacion/Vagrantfile)
-- [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker.
+- [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker .
