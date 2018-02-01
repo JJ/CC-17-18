@@ -107,3 +107,22 @@ Objetivos - Dayana Aguirre Iniguez.
 
 * [x] Entender el papel de los contenedores en la infraestructura virtual.
 * [x] Comprender los procesos de definición de contenedores.
+
+## Décima tercera semana
+
+* [x] Conocer los diferentes sistemas operativos para trabajar con contenedores
+* [x] Entender mecanismos de coordinación de contenedores.
+
+
+## Décima cuarta semana
+
+* [x] Entender la composición de servicios usando Docker
+* [x] Comprender el concepto de microervicios y su arquitectura
+
+
+## Décima quinta semana
+
+* [x] Comprender Docker compose
+* [x] Entender conceptos de la composición de servicios
+
+
