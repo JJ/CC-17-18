@@ -130,7 +130,7 @@ EOC
     if ( $deployment_url ) {
       diag "☑ Detectado URL de despliegue en hito 6 $deployment_url";
     } else {
-      diag "✗ Problemas detectando URL  en hito 6 de despliegue";
+      diag "✗ Problemas detectando URL en hito 6 de despliegue";
     }
     isnt( $deployment_url, "", "URL de despliegue hito 6");
     my $status = get "$deployment_url/status";
