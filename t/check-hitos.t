@@ -109,10 +109,13 @@ EOC
       diag "✗ Problemas detectando URL en hito 5 de despliegue";
     }
     isnt( $deployment_url, "", "URL de despliegue hito 5");
-    my $status = get "$deployment_url/status";
-    isnt( $status, undef, "Despliegue hecho en $deployment_url" );
-    my $status_ref = from_json( $status );
-    like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status de $deployment_url correcto");
+  SKIP: {
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 6;
+      my $status = get "$deployment_url/status";
+      isnt( $status, undef, "Despliegue hecho en $deployment_url" );
+      my $status_ref = from_json( $status );
+      like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status de $deployment_url correcto");
+    }
     
     isnt( grep( /Dockerfile/, @repo_files), 0, "Dockerfile presente" );
 
