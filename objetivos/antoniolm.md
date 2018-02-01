@@ -209,3 +209,15 @@
 * [x] Sesiones de evaluación:
     * [x] Hito 5: 18 de enero.
     * [ ] Hito 6: 24 de enero.
+
+## 15º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
+
+### Objetivos adicionales
+
+* [x] Entender Docker Compose.
+* [x] Entregar el último hito del proyecto.
+* [x] Avanzar en la funcionalidad del proyecto desplegado.
