@@ -134,3 +134,34 @@
 - [x] Análisis post-mortem del último hito.
 - [x] Falta de provisionamiento. [Solucionado](https://github.com/migadepan/Master_CC/blob/master/orquestacion/Vagrantfile)
 - [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker .
+
+## Objetivos Semana 13
+
+- [x] Conocer sistemas operativos específicos para trabajar con contenedores.
+- [x] Entender los mecanismos de coordinación de contenedores.
+- [x] Repaso y dudas sobre el último hito de la práctica.
+
+## Objetivos adicionales
+
+- [x] Resolver dudas relacionadas con el hito 5.
+- [ ] Trabajar con CoreOS.
+- [ ] Entender etcd y los mecanismos de coordinación.
+
+## Objetivos Semana 14
+
+- [x] Entender la composición de servicios usando Docker.
+- [x] Comprender el concepto de microservicios y su arquitectura.
+
+## Objetivos adicionales
+
+- [x] Sesión de evaluación: Hito 5: 18 de enero.
+
+## Objetivos Semana 15
+
+- [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
+
+## Objetivos adicionales
+
+- [x] Entender Docker Compose.
+- [x] Entregar el último hito del proyecto.
+- [x] Avanzar en la funcionalidad del proyecto desplegado.
