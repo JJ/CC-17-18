@@ -104,15 +104,18 @@ EOC
   if ( $this_hito > 4 ) { # Despliegue en algún lado
     my ($deployment_url) = ($README =~ /(?:[Cc]ontenedor|[Cc]ontainer).+(https?:..\S+)\b/);
     if ( $deployment_url ) {
-      diag "☑ Detectado URL de despliegue $deployment_url";
+      diag "☑ Detectado URL de despliegue en hito 5 $deployment_url";
     } else {
-      diag "✗ Problemas detectando URL de despliegue";
+      diag "✗ Problemas detectando URL en hito 5 de despliegue";
     }
     isnt( $deployment_url, "", "URL de despliegue hito 5");
-    my $status = get "$deployment_url/status";
-    isnt( $status, undef, "Despliegue hecho en $deployment_url" );
-    my $status_ref = from_json( $status );
-    like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status de $deployment_url correcto");
+  SKIP: {
+      skip "Ya en el hito siguiente", 1 unless $this_hito < 6;
+      my $status = get "$deployment_url/status";
+      isnt( $status, undef, "Despliegue hecho en $deployment_url" );
+      my $status_ref = from_json( $status );
+      like ( $status_ref->{'status'}, qr/[Oo][Kk]/, "Status de $deployment_url correcto");
+    }
     
     isnt( grep( /Dockerfile/, @repo_files), 0, "Dockerfile presente" );
 
@@ -125,9 +128,9 @@ EOC
    if ( $this_hito > 5 ) { # Despliegue combinado
     my ($deployment_url) = ($README =~ /(?:[Hh]ito6).+(https?:..\S+)\b/);
     if ( $deployment_url ) {
-      diag "☑ Detectado URL de despliegue $deployment_url";
+      diag "☑ Detectado URL de despliegue en hito 6 $deployment_url";
     } else {
-      diag "✗ Problemas detectando URL de despliegue";
+      diag "✗ Problemas detectando URL en hito 6 de despliegue";
     }
     isnt( $deployment_url, "", "URL de despliegue hito 6");
     my $status = get "$deployment_url/status";

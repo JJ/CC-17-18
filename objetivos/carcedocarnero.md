@@ -3,22 +3,22 @@
 
 ## Objetivos semana 1
 
-    - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
-    - [x] Darse de alta y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura; conocer el resto de los recursos de la asignatura.
-    - [x] Entender el concepto de software libre y su aplicación práctica en clase.
+- [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
+- [x] Darse de alta y comprender el funcionamiento básico de GitHub y el grupo de Telegram de la asignatura; conocer el resto de los recursos de la asignatura.
+- [x] Entender el concepto de software libre y su aplicación práctica en clase.
     Vernos las caras.
-    - [x] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
-    - [x] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
-    - [x] Entender en qué consiste el proyecto de la asignatura y comenzar a trabajar en el mismo.
+- [x] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
+- [x] Comprender la metodología de desarrollo, prueba y despliegue en la que se basa la computación en nube.
+- [x] Entender en qué consiste el proyecto de la asignatura y comenzar a trabajar en el mismo.
 
 ## Otros objetivos
 
-    - [x] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura
-    - [x] Usar los métodos de entrega de los objetivos propuestos para la asignatura usando GitHub.
-    - [x] Manejar de forma básica la línea de órdenes de Linux.
-    - [x] Aprender a instalar software libre en Linux.
-    - [x] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
-    - [ ] Conocer dónde se pueden obtener recursos cloud gratuitos para usar en la asignatura.
+- [x] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura
+- [x] Usar los métodos de entrega de los objetivos propuestos para la asignatura usando GitHub.
+- [x] Manejar de forma básica la línea de órdenes de Linux.
+- [x] Aprender a instalar software libre en Linux.
+- [x] Entregar el fichero de objetivos y los primeros ejercicios usando GitHub.
+- [ ] Conocer dónde se pueden obtener recursos cloud gratuitos para usar en la asignatura.
 
 ## Objetivos Semana 2
 
@@ -92,4 +92,76 @@
 - [x] Terminar durante la semana el hito 3 del proyecto, resolver las dudas que surjan y comentar lo que se ha hallado en el mismo.
 - [x] Instalar los nuevos sistemas de orquestación correspondientes al tema actual.
 - [x] Aprender nociones básicas de Ruby.
-- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez. 
+- [x] Revisar ejemplos y texto del tema nuevo que en se imparte este año por primera vez.
+
+## Objetivos Semana 9
+
+- [x] Entender el funcionamiento básico de los sistemas de gestión de recursos en la nube.
+- [x] Asimilar los conceptos relacionados con tales sistemas. 
+- [x] Instalarse los diferentes clientes de líneas de órdenes de los sistemas en la nube a los que se tenga acceso.
+
+## Objetivos Semana 10
+
+- [x] Entender los recursos para automatización de actividades en la nube
+- [x] Entender el concepto de infraestructura definida por software.
+
+## Objetivos adicionales
+
+- [ ] Resolver los problemas con Vagrant para diferentes proveedores de nube.
+- [ ] Probar diferentes proveedores de nube y ver las posibilidades que ofrecen.
+
+
+## Objetivos Semana 11
+
+- [x] Entender el concepto de contenedor.
+- [x] Comprender su encaje en la infraestructura virtual.
+
+## Otros objetivos
+
+- [x] Instalar lxc en Linux y probar los ejemplos.
+- [x] Instalar Docker y aprender las buenas prácticas para el uso del mismo.
+- [ ] Conocer sistemas operativos "ligeros" especializados para su uso en contenedores tales como Alpine, Plamo u otros.
+- [ ] Crear contenedores manualmente a partir de las imágenes base de esos sistemas operativos.
+
+
+## Objetivos Semana 12
+
+- [x] Entender el papel de los contenedores en la infraestructura virtual.
+- [x] Comprender los procesos de definición de contenedores.
+
+## Objetivos adicionales
+
+- [x] Análisis post-mortem del último hito.
+- [x] Falta de provisionamiento. [Solucionado](https://github.com/migadepan/Master_CC/blob/master/orquestacion/Vagrantfile)
+- [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de las herramientas de Docker .
+
+## Objetivos Semana 13
+
+- [x] Conocer sistemas operativos específicos para trabajar con contenedores.
+- [x] Entender los mecanismos de coordinación de contenedores.
+- [x] Repaso y dudas sobre el último hito de la práctica.
+
+## Objetivos adicionales
+
+- [x] Resolver dudas relacionadas con el hito 5.
+- [ ] Trabajar con CoreOS.
+- [ ] Entender etcd y los mecanismos de coordinación.
+
+## Objetivos Semana 14
+
+- [x] Entender la composición de servicios usando Docker.
+- [x] Comprender el concepto de microservicios y su arquitectura.
+
+## Objetivos adicionales
+
+- [x] Sesión de evaluación: Hito 5: 18 de enero.
+
+## Objetivos Semana 15
+
+- [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
+
+## Objetivos adicionales
+
+- [x] Entender Docker Compose.
+- [x] Entregar el último hito del proyecto.
+- [x] Avanzar en la funcionalidad del proyecto desplegado.
