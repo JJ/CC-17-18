@@ -136,5 +136,7 @@ Lista de objetivos de erseco
 
 ## Semana 15
 
-* [ ] work in progress...
-
+* [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
+* [x] Entender Docker Compose.
+* [x] Entregar el último hito del proyecto.
+* [x] Avanzar en la funcionalidad del proyecto desplegado.
