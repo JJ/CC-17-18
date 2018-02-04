@@ -174,3 +174,44 @@
 * [x] Alta en Docker Hub si no se ha hecho ya, así como instalación de
   las herramientas de Docker.
 
+## 13º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Conocer sistemas operativos específicos para trabajar con contenedores.
+* [x] Entender los mecanismos de coordinación de contenedores
+* [x] Repaso y dudas sobre el último hito de la práctica.
+
+### Objetivos adicionales
+
+* [ ] Trabajar con CoreOS
+* [ ] Entender `etcd`  y los mecanismos de coordinación.
+
+
+## 14º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Entender la composición de servicios usando Docker.
+* [x] Comprender el concepto de microservicios y su arquitectura.
+
+### Objetivos adicionales
+
+* [x] Entender la composición de la nota final.
+* [x] Entender el concepto de ejercicios de autoevaluación.
+* [x] Sesiones de evaluación:
+    * [x] Hito 5: 18 de enero.
+    * [ ] Hito 6: 24 de enero.
+
+## 15º Semana
+
+### Objetivos a cubrir en esta semana
+
+* [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
+
+### Objetivos adicionales
+
+* [x] Entender Docker Compose.
+* [x] Entregar el último hito del proyecto.
+* [x] Avanzar en la funcionalidad del proyecto desplegado.
+
