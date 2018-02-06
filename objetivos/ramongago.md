@@ -168,7 +168,7 @@ Lista de objetivos semanales - Ramón Gago Carrera
 ## Otros objetivos:
 
 - [x] Resolver dudas relacionadas con el hito 5.
-- [ ] Trabajar con CoreOS.
+- [x] Trabajar con CoreOS.
 - [ ] Entender etcd y los mecanismos de coordinación.
 
 # Semana 14
@@ -182,15 +182,16 @@ Lista de objetivos semanales - Ramón Gago Carrera
 - [x] Entender la composición de la nota final.
 - [x] Entender el concepto de ejercicios de autoevaluación.
 - [x] Sesiones de evaluación:
-  - [ ] Hito 5: 18 de enero.
-  - [ ] Hito 6: 24 de enero.
-
+  - [x] Hito 5: 18 de enero.
+  - [x] Hito 6: 24 de enero.
 
 # Semana 15
 ## Objetivos:
 
-- [ ] 
+- [x] Entender los conceptos detrás de la composición de servicios y sus casos de uso.
 
 ## Otros objetivos:
 
-- []
+- [x] Entender Docker Compose.
+- [x] Entregar el último hito del proyecto.
+- [x] Avanzar en la funcionalidad del proyecto desplegado.
